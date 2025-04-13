@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ED-DIB Youssef - Portfolio</title>
+  <link rel="stylesheet" href="app.component.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Sidebar Social -->
+<div class="social-sidebar">
+  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+  <a href="#"><i class="fab fa-twitter"></i></a>
+  <a href="#"><i class="fab fa-youtube"></i></a>
+  <a href="#"><i class="fab fa-github"></i></a>
+  <a href="#"><i class="fas fa-book-open"></i></a>
+</div>
+
+<!-- Navbar -->
+<header class="navbar">
+  <div class="logo">
+    <img src="https://images.pexels.com/photos/29821200/pexels-photo-29821200/free-photo-of-g-garcon.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ED-DIB Youssef" />
+    <span>ED-DIB YOUSSEF</span>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#" (click)="navigateTo('#home')">Home</a></li>
+      <li><a href="#" (click)="navigateTo('#about')">About</a></li>
+      <li><a href="#" (click)="navigateTo('#projects')">Projects</a></li>
+      <li><a href="#" (click)="navigateTo('#contact')">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <h1>HEY, I'M <span>ED-DIB YOUSSEF</span></h1>
+  <p>
+    A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
+  </p>
+  <a href="#" class="btn" (click)="navigateTo('#projects')">Projects</a>
+</section>
+</body>
+</html> "           
