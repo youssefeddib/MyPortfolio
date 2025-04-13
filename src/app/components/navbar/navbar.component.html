@@ -1,0 +1,17 @@
+<header class="navbar">
+    <div class="logo">
+      <img src="https://images.pexels.com/photos/29821200/pexels-photo-29821200/free-photo-of-g-garcon.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ED-DIB Youssef" />
+      <span>ED-DIB YOUSSEF</span>
+      <link rel="stylesheet" href="navbar.component.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" (click)="navigateTo('#home')">Home</a></li>
+        <li><a href="#" (click)="navigateTo('#about')">About</a></li>
+        <li><a href="#" (click)="navigateTo('#projects')">Projects</a></li>
+        <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
